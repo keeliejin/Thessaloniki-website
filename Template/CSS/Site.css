@@ -1,0 +1,13 @@
+/* ••••••• General ••••••• */
+
+/* ••••••• Frame ••••••• */
+
+#banner, footer {
+    background-color: rgb(0, 90, 210);
+    color: white;
+}
+
+#banner a:link, #banner a:hover, #banner a:active, #banner a:visited {
+    color: white;
+    text-decoration: none;
+}
