@@ -6,7 +6,7 @@ let package = Package(
     name: "Generator",
     dependencies: [
         .package(url: "https://github.com/SDGGiesbrecht/SDGCornerstone", .exact(Version(0, 12, 0))),
-        .package(path: "../../../Programming/Projects/Frameworks/SDGWeb")//"https://github.com/SDGGiesbrecht/SDGWeb", .exact(Version(0, 0, 1)))
+        .package(url: "https://github.com/SDGGiesbrecht/SDGWeb", .exact(Version(0, 0, 2)))
         ],
     targets: [
         .target(
