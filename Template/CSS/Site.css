@@ -1,7 +1,7 @@
 /* ••••••• General ••••••• */
 
 html {
-    color: rgb(0, 90, 210);
+    color: rgb(39, 43, 44);
 }
 
 h1 {
@@ -25,7 +25,7 @@ footer { grid-area: "footer"; }
 /* Header & Footer */
 
 header, footer {
-    background-color: rgb(0, 90, 210);
+    background-color: rgb(39, 43, 44);
     color: white;
 }
 header a:link, header a:hover, header a:active, header a:visited, footer a:link, footer a:hover, footer a:active, footer a:visited {
@@ -53,7 +53,7 @@ header > nav > div {
     display: inline-block;
 }
 header > nav > div > div {
-    background-color: rgb(0, 90, 210);
+    background-color: rgb(39, 43, 44);
     display: none;
     position: absolute;
 }
