@@ -9,7 +9,7 @@ let site = Site<Localization>(
     repositoryStructure: repositoryStructure,
     domain: domain,
     localizationDirectories: localizatonDirectory,
-    pageProcessor: LACCPageProcessor(),
+    pageProcessor: PageProcessor(),
     reportProgress: { print($0) })
 
 try site.generate()

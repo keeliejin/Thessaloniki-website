@@ -1,7 +1,7 @@
 import SDGCornerstone
 import SDGWeb
 
-struct LACCPageProcessor : PageProcessor {
+struct PageProcessor : SDGWeb.PageProcessor {
 
     func process(
         pageTemplate: inout StrictString,
