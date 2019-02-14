@@ -17,7 +17,7 @@ struct LACCPageProcessor : PageProcessor {
 
         pageTemplate.replaceMatches(for: "[*site root*]".scalars, with: siteRoot)
         pageTemplate.replaceMatches(for: "[*localization root*]".scalars, with: localizationRoot)
-        
+
         pageTemplate.replaceMatches(for: "[*copyright dates*]", with: copyrightDates(yearFirstPublished: 2018))
     }
 }
