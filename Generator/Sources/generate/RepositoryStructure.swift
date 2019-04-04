@@ -9,3 +9,10 @@ internal let repositoryStructure: SDGWeb.RepositoryStructure = {
     }
     return SDGWeb.RepositoryStructure(root: url)
 }()
+
+extension SDGWeb.RepositoryStructure {
+
+    var images: URL {
+        return template.appendingPathComponent("Images")
+    }
+}
