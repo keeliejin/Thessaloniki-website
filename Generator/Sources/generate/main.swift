@@ -12,7 +12,7 @@ let site = Site<Localization>(
     pageProcessor: PageProcessor(),
     reportProgress: { print($0) })
 
-try site.generate()
+try site.generate().get()
 
 do {
     print("Copying images...")
@@ -22,4 +22,4 @@ do {
 }
 
 
-_ = try? Shell.default.run(command: ["open", repositoryStructure.result.appendingPathComponent("ελ/index.html").path])
+_ = try? Shell.default.run(command: ["open", repositoryStructure.result.appendingPathComponent("ελ/index.html").path]).get()
